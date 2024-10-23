@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2015"],           // Chỉ định các thư viện API mà TypeScript sẽ sử dụng, ở đây là ES2015.
+        "module": "CommonJS",        // Chỉ định kiểu hệ thống module mà TypeScript sẽ biên dịch sang, ở đây là CommonJS.
+        "outDir": "dist",            // Chỉ định thư mục đầu ra nơi mà mã JavaScript đã biên dịch sẽ được lưu.
+        "sourceMap": true,           // Cho phép tạo file source map để giúp dễ dàng gỡ lỗi mã TypeScript.
+        "strict": true,              // Bật chế độ kiểm tra nghiêm ngặt để đảm bảo mã của bạn được kiểu hóa chính xác.
+        "target": "ES2015"           // Chỉ định phiên bản JavaScript mà TypeScript sẽ biên dịch sang, ở đây là ES2015.
+    },
+    "include": [
+        "src"                         // Chỉ định thư mục mà TypeScript sẽ tìm kiếm các file mã nguồn để biên dịch.
+    ]
+}
